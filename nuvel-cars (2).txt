@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUVEL CARS</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#000;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+letter-spacing:3px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:15px;
+}
+
+nav a:hover{
+color:#cccccc;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7');
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+font-size:20px;
+}
+
+.button{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:white;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+font-size:38px;
+margin-bottom:25px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#181818;
+padding:25px;
+border-radius:10px;
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+.contact-box{
+max-width:800px;
+margin:auto;
+}
+
+input,
+textarea{
+width:100%;
+padding:14px;
+margin-bottom:15px;
+border:none;
+border-radius:6px;
+}
+
+button{
+padding:14px 30px;
+border:none;
+font-weight:bold;
+cursor:pointer;
+border-radius:6px;
+}
+
+footer{
+background:black;
+padding:30px;
+text-align:center;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">NUVEL CARS</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#vehicles">Vehicles</a>
+<a href="#factory">Factory</a>
+<a href="#invest">Invest</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div>
+
+<h1>NUVEL CARS</h1>
+
+<p>
+A Tunisian automotive startup project focused on future mobility,
+vehicle innovation, engineering excellence, and industrial development.
+Our objective is to contribute to Tunisia's automotive future through
+modern vehicle concepts and long-term manufacturing ambitions.
+</p>
+
+<a href="#about" class="button">Discover More</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About NUVEL CARS</h2>
+
+<p>
+NUVEL CARS is a developing automotive project based in Tunisia.
+The vision of the project is to create a modern vehicle brand capable
+of designing, developing, and eventually manufacturing vehicles for
+local and international markets.
+</p>
+
+<br>
+
+<p>
+The company aims to support engineering talent, industrial innovation,
+and economic development while contributing to the advancement of
+automotive technologies and sustainable mobility solutions.
+</p>
+
+</section>
+
+<section id="vehicles">
+
+<h2>Vehicle Program</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>NUVEL Sedan</h3>
+<p>
+A modern sedan designed to combine efficiency, comfort,
+technology, and practicality.
+</p>
+</div>
+
+<div class="card">
+<h3>NUVEL SUV</h3>
+<p>
+A versatile family vehicle with a focus on space,
+safety, and long-distance travel.
+</p>
+</div>
+
+<div class="card">
+<h3>NUVEL Urban</h3>
+<p>
+A compact vehicle concept developed for urban mobility
+and everyday transportation.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="factory">
+
+<h2>Factory Development Plan</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Phase 1</h3>
+<p>
+Brand creation, market research, concept development,
+and engineering planning.
+</p>
+</div>
+
+<div class="card">
+<h3>Phase 2</h3>
+<p>
+Prototype development, testing programs,
+and technical validation.
+</p>
+</div>
+
+<div class="card">
+<h3>Phase 3</h3>
+<p>
+Industrial planning, supplier partnerships,
+and manufacturing preparation.
+</p>
+</div>
+
+<div class="card">
+<h3>Phase 4</h3>
+<p>
+Construction of production facilities,
+staff training, and future manufacturing operations.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="invest">
+
+<h2>Investment Opportunity</h2>
+
+<p>
+NUVEL CARS is currently a startup project seeking strategic partners,
+industry experts, and future investors interested in supporting
+automotive innovation and industrial development in Tunisia.
+</p>
+
+<br>
+
+<p>
+Funding and partnerships will be directed toward research,
+prototype development, engineering activities, and future
+manufacturing initiatives.
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<div class="contact-box">
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+<input
+type="text"
+name="name"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Email Address"
+required>
+
+<textarea
+name="message"
+rows="8"
+placeholder="Your Message"
+required></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+<br>
+
+<p>Email: nuvel.cars@gmail.com</p>
+<p>Phone: 99500974</p>
+<p>Phone: 22517343</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 NUVEL CARS. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
